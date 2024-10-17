@@ -35,7 +35,7 @@ if %errorLevel% neq 0 (
     goto end
 )
 
-echo Modifying registry to allow development mode...
+echo Enabling development mode...
 powershell "New-ItemProperty -Path HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock -Name AllowDevelopmentWithoutDevLicense -PropertyType DWORD -Value 1 -Force" >nul 2>nul
 
 echo Removing Outlook appx package...
@@ -56,7 +56,7 @@ echo Removing AppxManifest.xml from C:\Users\...
 if exist "C:\Users\AppxManifest.xml" (
     del "C:\Users\AppxManifest.xml" >nul 2>&1
     if %errorLevel% neq 0 (
-        echo Warning: File "C:\Users\AppxManifest.xml" could not be deleted. Continuing...
+        echo Warning: File "C:\Users\AppxManifest.xml" could not be deleted.
         pause
         goto end
     )
