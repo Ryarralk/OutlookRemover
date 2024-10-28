@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package IgnorableNamespaces="build com desktop desktop4 desktop6 desktop9 mp rescap uap uap5" xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:build="http://schemas.microsoft.com/developer/appx/2015/build" xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10" xmlns:desktop="http://schemas.microsoft.com/appx/manifest/desktop/windows10" xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4" xmlns:desktop6="http://schemas.microsoft.com/appx/manifest/desktop/windows10/6" xmlns:desktop9="http://schemas.microsoft.com/appx/manifest/desktop/windows10/9" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5">
-  <Identity Name="Microsoft.OutlookForWindows" ProcessorArchitecture="x64" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="1.2024.403.0" />
+  <Identity Name="Microsoft.OutlookForWindows" ProcessorArchitecture="x64" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="9.2029.1231.0" />
   <!-- resources, driven by makepri details. -->
   <Resources>
     <Resource uap:Scale="100" />
