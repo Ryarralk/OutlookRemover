@@ -1,3 +1,10 @@
+/!\ IMPORTANT NOTICE /!\
+
+Since M$ removed the ability for Mail & Calendar to work entirely with the latest version, use that application at your own risk.
+Long live Mail & Calendar. A good app that died for a shitty webview app.
+
+========================================
+
 "Outlook" (New) permanent removal script
 ========================================
 This script prevents the Outlook (new) app from installing by installing a custom blank app with the same package id as the original one, thus making it´s installation fail. To do this, it enables temporarily the developer mode via registry and registers the modified New Outlook manifest as an unpacked Appx package.
